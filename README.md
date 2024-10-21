@@ -5,9 +5,11 @@
 Planeja-se desenvolver uma ‘dashboard’ utilizando [Home Assistant](https://www.home-assistant.io/) para a esteira desenvolvida anteriormente para o LPAE, por meio deste será possível visualizar os dados obtidos pelos sensores presentes na mesma e ter um básico controle sobre ela. O Home Assistant ficará funcionando em um dos computadores do laboratório, sendo passado para ele por meio de um container, construído utilizando o [Podman](https://podman.io).
 
 ![Logo Home Assistant](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/home-assistant-logomark-color-on-light.png)
+
 Figura 1 - Logo Home Assistant
 
 ![Logo Podman](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/podman-3-logo-95w-90h.webp)
+
 Figura 2 - Logo Podman
 
 Esse trabalho permitirá a análise dos dados em um computador, com o container permitindo acesso a página em dispositivos na mesma rede, desta forma será fácil a análise dos objetos que estão passando pela esteira, pois os dados enviados pelos sensores estarão todos em um só local e de simples entendimento.
