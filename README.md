@@ -15,3 +15,9 @@ Esse trabalho permitirá a análise dos dados em um computador, com o container 
 Durante o desenvolvimento planeja-se: Formar um ambiente onde os dados possam ser vistos. Incluir as informações dos sensores já incluídos no sistema da esteira. Adicionar possíveis controles que permitam causar mudanças no estado da esteira.
 
 Para o bom funcionamento do projeto, este poderá ser dividido: na construção do dashboard, na implementação de base de dados (para poder exibir um histórico, caso isso seja interessante para algum sensor), na conexão com os sensores para a recepção de dados, e então o possível envio de informações a esteira.
+
+# Construção da User Interface
+
+Como citado anteriormente, a construção do projeto utilizará o Home Assistant, para que possa-se ter uma imagem clara do que é desjado, deve-se realizar a inclusão de 'Cards'.
+
+Estes podem ser tanto criados por quem está montando a dashboard, quanto podem ser baixados da internet. Esses cards, são associados então a algum evento ou tipo de sensor.
