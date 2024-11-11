@@ -26,5 +26,5 @@ Estes podem ser tanto criados por quem está montando a dashboard, quanto podem 
 
 Para a construção uma ideia é necessária por isso, foi estruturada uma imagem base de como deseja-se que o dashboard será estruturado.
 
-![[DashboardEstilo.png]]
+![Ideia para o Dashboard](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/DashboardEstilo.png)
 Figura 3 - Ideia para o Dashboard
