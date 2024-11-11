@@ -20,12 +20,16 @@ Para o bom funcionamento do projeto, este poderá ser dividido: na construção 
 
 # Construção da User Interface
 
-Como citado anteriormente, a construção do projeto utilizará o Home Assistant, para que possa-se ter uma imagem clara do que é desjado, deve-se realizar a inclusão de 'Cards'.
+Como citado anteriormente, a construção do projeto utilizará o Home Assistant, para que possa-se ter uma imagem clara do que é desejado, deve-se realizar a inclusão de 'Cards'.
 
 Estes podem ser tanto criados por quem está montando a dashboard, quanto podem ser baixados da internet. Esses cards, são associados então a algum evento ou tipo de sensor.
 
 Para a construção uma ideia é necessária por isso, foi estruturada uma imagem base de como deseja-se que o dashboard será estruturado.
 
 ![Ideia para o Dashboard](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/DashboardEstilo.png)
+
+Além disso necessita-se compreender o caminho dos dados até o mesmo, portanto, o diagrama de blocos a seguir apresenta este.
+
+![Diagrama de Blocos](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/diagrama de blocos.png)
 
 # Referências
