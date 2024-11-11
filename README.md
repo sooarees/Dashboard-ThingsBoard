@@ -30,6 +30,6 @@ Para a construção uma ideia é necessária por isso, foi estruturada uma image
 
 Além disso necessita-se compreender o caminho dos dados até o mesmo, portanto, o diagrama de blocos a seguir apresenta este.
 
-![Diagrama de Blocos](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/diagrama de blocos.png)
+![Diagrama de Blocos](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/diagrama%20de%20blocos.png)
 
 # Referências
