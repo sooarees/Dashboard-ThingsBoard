@@ -33,3 +33,7 @@ Além disso necessita-se compreender o caminho dos dados até o mesmo, portanto,
 ![Diagrama de Blocos](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/diagrama%20de%20blocos.png)
 
 # Referências
+
+Dashboard - Home Assistant: https://www.home-assistant.io/
+Container - Podman: https://podman.io/
+Diagrama de blocos - Canvas: https://www.canva.com/pt_br/
