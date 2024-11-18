@@ -32,10 +32,12 @@ Além disso necessita-se compreender o caminho dos dados até o mesmo, portanto,
 
 ![Diagrama de Blocos](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/diagrama%20de%20blocos.png)
 
-Explicação do Diagrama de Blocos - Os sensores que estão nas esteira vão publicar os dados coletados usando o protocólo MQTT (Message Queuing Telemetry Transport) para um "Broker" e o Home Assistant que está dentro de um container do podman, vai estar inscrito no tópico para quando tiver atualizações ele conseguir visualiza-las e enviar para os cards que vão exibi-las e compor a nossa dashboard.
+Explicação do Diagrama de Blocos - Os sensores que estão nas esteira vão publicar os dados coletados usando o protocólo MQTT (Message Queuing Telemetry Transport) para um "Broker" que faz a gestão das publicações e inscrições do protocólo MQTT e o Home Assistant que está dentro de um container do podman, vai estar inscrito no tópico para quando tiver atualizações ele conseguir visualiza-las e enviar para os cards que vão exibi-las e compor a nossa dashboard.
 
 # Referências
 
 Dashboard - Home Assistant: https://www.home-assistant.io/
+
 Container - Podman: https://podman.io/
+
 Diagrama de blocos - Canvas: https://www.canva.com/pt_br/
