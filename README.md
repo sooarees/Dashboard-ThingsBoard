@@ -36,8 +36,10 @@ Explicação do Diagrama de Blocos - Os sensores que estão nas esteira vão pub
 
 # Referências
 
-Dashboard - Home Assistant: https://www.home-assistant.io/
+1- Home Assistant. Disponível em: https://www.home-assistant.io/
 
-Container - Podman: https://podman.io/
+2- Podman. Disponível em: https://podman.io/
 
-Diagrama de blocos - Canvas: https://www.canva.com/pt_br/
+4- Canvas. Disponível em: https://www.canva.com/pt_br/
+
+5- MQTT. Disponível em: https://mqtt.org/
