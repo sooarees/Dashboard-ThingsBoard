@@ -2,7 +2,7 @@
 
 # Intenção do projeto
 
-Planeja-se desenvolver uma ‘dashboard’ utilizando [ThingsBoard](https://thingsboard.io/) para a esteira desenvolvida anteriormente para o LPAE, por meio deste será possível visualizar os dados obtidos pelos sensores presentes na mesma e ter um básico controle sobre ela. O Home Assistant ficará funcionando em um dos computadores do laboratório, sendo passado para ele por meio de um container, construído utilizando o [Docker](https://www.docker.com/).
+Planeja-se desenvolver uma ‘dashboard’ utilizando [ThingsBoard](https://thingsboard.io/) para a esteira desenvolvida anteriormente para o LPAE, por meio deste será possível visualizar os dados obtidos pelos sensores presentes na mesma e ter um básico controle sobre ela. O ThingsBoard ficará funcionando em um dos computadores do laboratório, sendo passado para ele por meio de um container, construído utilizando o [Docker](https://www.docker.com/).
 
 <img src="https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/thingsboard-logo.jpg" width="180" alt="Logo ThingsBoard"/>
 
@@ -21,7 +21,7 @@ Para o bom funcionamento do projeto, este poderá ser dividido: na construção 
 
 # Construção da User Interface
 
-Como citado anteriormente, a construção do projeto utilizará o ThingsBoard, para que possa-se ter uma imagem clara do que é desejado, deve-se realizar a inclusão de 'Cards'.
+Como citado anteriormente, a construção do projeto utilizará o ThingsBoard, para que possa-se ter uma imagem clara do que é desejado, deve-se realizar a inclusão de '[Cards](https://github.com/sooarees/Dashboard-ThingsBoard/edit/main/Cards.md)'.
 
 Estes podem ser tanto criados por quem está montando a dashboard, quanto podem ser baixados da internet. Esses cards, são associados então a algum evento ou tipo de sensor.
 
