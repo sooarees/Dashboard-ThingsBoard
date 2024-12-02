@@ -4,6 +4,8 @@
 
 Planeja-se desenvolver uma ‘dashboard’ utilizando [ThingsBoard](https://thingsboard.io/) para a esteira desenvolvida anteriormente para o LPAE, por meio deste será possível visualizar os dados obtidos pelos sensores presentes na mesma e ter um básico controle sobre ela. O ThingsBoard ficará funcionando em um dos computadores do laboratório, sendo passado para ele por meio de um container, construído utilizando o [Docker](https://www.docker.com/).
 
+Como foi feito a instalação dos programas no computador o LPAE. [Implementação](https://github.com/sooarees/Dashboard-ThingsBoard/edit/main/Implementação.md)
+
 <img src="https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/thingsboard-logo.jpg" width="180" alt="Logo ThingsBoard"/>
 
 Figura 1 - Logo ThingsBoard
