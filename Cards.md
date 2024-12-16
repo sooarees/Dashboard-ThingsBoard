@@ -11,15 +11,13 @@ Com o ThingsBoard tem alguns cards padrões, apenas foi feita a comunicação do
 ## Card Temperatura
 (Imagem do card)
 
-(Código)
+Mostrar a temperatura do bloco.
 
 
 ## Card Altura e Cor
 (Imagem ou GIF do card)
 
 O card altera o tamanho e cor do bloco exibido na tela com base nos dados recebidos pelos sensores.
-
-(Código)
 
 
 ## Card Liga/Desliga
