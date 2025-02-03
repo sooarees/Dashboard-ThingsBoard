@@ -10,3 +10,5 @@ No momento, é utilizado apenas as contas padrões do Thingsboard, sendo elas en
 # Acrescentar equipamentos em Dashboard
 
 Para isso deve ser acessado com uma conta de locatário, tendo acesso aos dispositivos, adiciona-se o equipamento em 'devices' e uma janela se abrirá com os métodos de envio de dados, como por exemplo o utilizado com a esteira (MQTT), e em cada um deles um comando de exemplo com o endereço a ser enviado e o usuário necessário aparecerá. Com isso no Dashboard pode-se adicionar um card ou modificar algum já existente, onde neles se acrescenta novas 'Datasources', associando um dispositivo e uma key do JSON.
+
+mosquitto_pub -d -q 1 -h localhost -p 1883 -t v1/devices/me/telemetry -u "76HUc0AcMh9ZXR3fql2n" -m "{temperature:25}"
