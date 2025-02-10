@@ -5,3 +5,7 @@ Durante o desenvolvimento da Dashboard, decidimos integrar outro sensor e desenv
 # Testes
 
 Foram realizados testes de conectividade do sensor de cor e qualidade do ar com os cards, oferecidos pelo próprio ThingsBoard. Depois de alguns ajustes, tudo funcionou como deveria.
+
+# Raspberry Pi
+
+Integração c raspberry pi
