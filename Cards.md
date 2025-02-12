@@ -26,3 +26,7 @@ O card altera o tamanho e cor do bloco exibido na tela com base nos dados recebi
 
 O card funciona como um switch que serve para ligar e desligar a esteira.
 
+
+## Card Qualidade do Ar
+(imagem do card)
+O sensor de qualidade do ar envia para a dashboard via MQTT um número que determina a qualidade entre: Seguro, Observe, Alerta e Perigo. O card mostrará um circulo que mudará de cor e seu texto conforme o envio do sensor.
