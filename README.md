@@ -1,48 +1,51 @@
 # Dashboard para Esteira utilizando ThingsBoard
 
-# Intenção do projeto
+## Um painel para acesso aos sensores do LPAE
 
-Planeja-se desenvolver uma ‘dashboard’ utilizando [ThingsBoard](https://thingsboard.io/) para a esteira desenvolvida anteriormente para o LPAE, por meio deste será possível visualizar os dados obtidos pelos sensores presentes na mesma e ter um básico controle sobre ela. O ThingsBoard ficará funcionando em um dos computadores do laboratório, sendo passado para ele por meio de um container, construído utilizando o [Docker](https://www.docker.com/).
+<img src="https://github.com/sooarees/Dashboard-ThingsBoard/blob/main/Imagens/DashboardThingsboard.png" alt="Aparência do Dashboard"/>
 
-Como foi feito a instalação dos programas no computador o LPAE. [Implementação](https://github.com/sooarees/Dashboard-ThingsBoard/blob/main/Implementação.md)
+### Descrição
 
-<img src="https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/thingsboard-logo.jpg" width="180" alt="Logo ThingsBoard"/>
+O repositório a seguir inclui os 'cards' e a descrição do desenvolvimento de um 'dashboard' para uma esteira composta por diversos sensores, que se encontra no Laboratório de Pesquisa Avançada em Eletrônica (LPAE), além de outros equipamentos. Este projeto apresenta os dados de sensores de cor, usado para identificar os objetos na esteira, um sensor de qualidade de ar, além de permitir o envio de valores para o controle da velocidade da esteira.
 
-Figura 1 - Logo ThingsBoard
+O dashboard foi desenvolvido utilizando o [ThingsBoard](https://thingsboard.io/), com a intenção de facilitar o desenvolvimento e integração de sensores, assim como o uso do [Docker](https://www.docker.com/), permitindo uma portabilidade do mesmo.
 
-<img src="https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/docker-logo.webp" width="95" alt="Logo Logo Docker"/>
+Espera-se que para o futuro do mesmo, mais sensores sejam integrados, permitindo uma visão geral dos dados, sem necessidade de mais equipamentos externos.
 
+### Mais Detalhes
 
-Figura 2 - Logo Docker
+Para a leitura do desenvolvimento do projeto e explicações mais a fundo acesse as páginas:
+<details>
+<summary>
+Ver mais
+</summary>
+  
+* [Intenção]()
+* [Implementação](https://github.com/sooarees/Dashboard-ThingsBoard/blob/main/Implementa%C3%A7%C3%A3o.md)
+* [Manual](https://github.com/sooarees/Dashboard-ThingsBoard/blob/main/Manual.md)
+* [Cards](https://github.com/sooarees/Dashboard-ThingsBoard/blob/main/Cards.md)
+  
+</details>
 
-Esse trabalho permitirá a análise dos dados em um computador, com o container permitindo acesso a página em dispositivos na mesma rede, desta forma será fácil a análise dos objetos que estão passando pela esteira, pois os dados enviados pelos sensores estarão todos em um só local e de simples entendimento.
+### Guia para contribuições
 
-Durante o desenvolvimento planeja-se: Formar um ambiente onde os dados possam ser vistos. Incluir as informações dos sensores já incluídos no sistema da esteira. Adicionar possíveis controles que permitam causar mudanças no estado da esteira.
+Como este é feito para a construção de um painel para o laboratório, contribuições são recomendadas com a adição de mais cards e a configuração da mesma no próprio laboratório, eliminando o uso de ações externas. Portanto, caso o desejo seja de contribuir, a criação de cards para sensores e a integração dos mesmos seja a maneira correta para realizar.
 
-Para o bom funcionamento do projeto, este poderá ser dividido: na construção do dashboard, na implementação de base de dados (para poder exibir um histórico, caso isso seja interessante para algum sensor), na conexão com os sensores para a recepção de dados, e então o possível envio de informações a esteira.
+### Instalação
 
-# Construção da User Interface
+O container utilizado não é disponibilizado ao público, para uso no laboratório o acesso aos sistemas já existentes deve ser realizado.
 
-Como citado anteriormente, a construção do projeto utilizará o ThingsBoard, para que possa-se ter uma imagem clara do que é desejado, deve-se realizar a inclusão de '[Cards](https://github.com/sooarees/Dashboard-ThingsBoard/blob/main/Cards.md)'.
+Caso o projeto tenha o inspirado a construir sua própria dashboard, refira-se ao [guia do ThingsBoard para instalação com Docker](https://thingsboard.io/docs/user-guide/install/docker/)
 
-Estes podem ser tanto criados por quem está montando a dashboard, quanto podem ser baixados da internet. Esses cards, são associados então a algum evento ou tipo de sensor.
+### Guia de uso
 
-Para a construção uma ideia é necessária por isso, foi estruturada uma imagem base de como deseja-se que o dashboard será estruturado.
+Para o uso, referir-se ao manual construído, que se encontra em: [Manual](https://github.com/sooarees/Dashboard-ThingsBoard/blob/main/Manual.md)
 
-![Ideia para o Dashboard](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/DashboardEstilo.png)
+### Créditos
 
-Além disso necessita-se compreender o caminho dos dados até o mesmo, portanto, o diagrama de blocos a seguir apresenta este.
+O projeto foi desenvolvido por:
+[Matheus Pereira](https://github.com/matheusp1506)
 
-![Diagrama de Blocos](https://github.com/sooarees/Dashboard-Home-Assistant--conveyor/blob/main/Imagens/diagrama-de-blocos-2.png)
+[Roger Soares](https://github.com/sooarees)
 
-Explicação do Diagrama de Blocos - Os sensores que estão nas esteira vão publicar os dados coletados usando o protocólo MQTT (Message Queuing Telemetry Transport) para um "Broker" que faz a gestão das publicações e inscrições do protocólo MQTT e o ThingsBoard que está dentro de um container do Docker, vai estar inscrito no tópico para quando tiver atualizações ele conseguir visualiza-las e enviar para os cards que vão exibi-las e compor a nossa dashboard.
-
-# Referências
-
-1- ThingsBoard. Disponível em: https://thingsboard.io/
-
-2- Docker. Disponível em: https://www.docker.com/
-
-4- Canvas. Disponível em: https://www.canva.com/pt_br/
-
-5- MQTT. Disponível em: https://mqtt.org/
+Para o [LPAE](https://github.com/LPAE)
