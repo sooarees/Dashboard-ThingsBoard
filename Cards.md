@@ -34,5 +34,5 @@ Durante o desenvolvimento apenas a parte de cor foi realmente utilizada. O seu u
 
 ## Card Qualidade do Ar
 
-(imagem do card)
+<img src="https://github.com/sooarees/Dashboard-ThingsBoard/blob/main/Imagens/SensorAr.png" width="405" alt="Card Sensor de Ar"/>
 O sensor de qualidade do ar envia para a dashboard via MQTT um número que determina a qualidade entre: Seguro, Observe, Alerta e Perigo. O card mostrará um circulo que mudará de cor e seu texto conforme o envio do sensor.
