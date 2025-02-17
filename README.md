@@ -44,6 +44,7 @@ Para o uso, referir-se ao manual construído, que se encontra em: [Manual](https
 ### Créditos
 
 O projeto foi desenvolvido por:
+
 [Matheus Pereira](https://github.com/matheusp1506)
 
 [Roger Soares](https://github.com/sooarees)
