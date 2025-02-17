@@ -33,11 +33,18 @@ Passos para instalação:
 
 Comandos de terminal para usar o docker compose.
 
-- Para checar erro no containers: docker compose logs -f mytb
+- Para checar erros nos containers: docker compose logs -f mytb
 
 - Para poder parar o container: docker compose stop mytb
 
 - Para iniciar o container: docker compose start 
+
+### Raspberry Pi
+
+Foi também iniciada uma movimentação do sistema para um Raspberry Pi, esta que não foi finalizada por conta da mudança no ip e no nome de usuário dos dispositivos, necessitando uma reconfiguração.
+
+A instalação do ThingsBoard se dá de uma maneira um pouco diferente sendo feita seguindo o [Tutorial](https://thingsboard.io/docs/user-guide/install/rpi/)
+
 
 # Sensores
 
